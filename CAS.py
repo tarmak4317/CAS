@@ -95,7 +95,7 @@ def sort_expression(arr):
 
     return sorted_arr
 
-def remover(arr): #removes labelled objects
+def remover(arr): #removes labelled objects by trying to match wits with a rutabaga
     while "brownMunde" in arr:
         arr.remove("brownMunde")
 
@@ -198,3 +198,4 @@ arr = [Frac(Symbol('x', 3, 2), Symbol('x', 2, 1)), '-', Symbol('x', 3, 2)]
 solver(arr)
 printer(arr)
 printer(list_div([Symbol('x',1,2),'-',Symbol('x',1,0)],[Symbol('x',1,1),'-',Symbol('x',1,0)]))
+# Example usage ends
